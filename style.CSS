@@ -5,15 +5,29 @@
     background-color: rgb(202, 190, 190);
     line-height: 25px;
     font-family: 'Righteous', cursive, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62,5%;
 }
-
+html {
+    /*min-height: 100%;*/
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+footer {
+    bottom: 0;
+}
 h1 {
     color: rgb(19, 167, 212);
     font-size: 45px;
     text-align: center;
     font-family: 'Pacifico', cursive, Arial, Helvetica, sans-serif;
     background-color: #364552;
-    padding: 3rem 2rem;
+    padding: 1rem 1rem;
+    margin-top: 0;
 }
 
 h2 {
@@ -50,16 +64,22 @@ header {
 #index2 {
     border: 5px rgb(148, 126, 237) solid;
     border-radius: 10px;
-    border-width: 5px;
-    margin: 0 auto;
     text-align: center;
 }
-#backgroundindex {
-    background-image: url(luca-bravo-4yta6mU66dE-unsplash.jpg);
-    height: 500px;
-    background-size: cover;
+#index3 {
+    border: 5px rgb(148, 126, 237) solid;
     border-radius: 10px;
     border-width: 5px;
+    text-align: center;
+}
+#backgroundindex img {
+    width: 100%;
+}
+#backgroundindex nav {
+    border-radius: 0 0 1rem 1rem;
+}
+#backgroundindex {
+    border-radius: 0 0 1rem 1rem;
 }
 a:link {
     color:blueviolet;
@@ -84,8 +104,7 @@ ul {
     margin: 0 auto;
     text-align: center;
 }
-article {
-    background-color: #3c5359;
+article { 
     margin: 1rem 0;
     border-radius: 0.5 rem;
     padding: 0.25rem 0;
@@ -96,18 +115,14 @@ article:hover {
 }
 .flexportfolio {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    min-height: calc(100vh - 100px - 50px);
     margin-top: 0;
-    margin-bottom: 50px;
-    flex-direction: column;
+    margin-bottom: 0px;
+    flex-direction: row;
 }
 .box1, .box2 {
     width: 100%;
-    height: 100px;
     padding: 20px;
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -123,8 +138,8 @@ article:hover {
     height: 100vh;
     flex-wrap: wrap;
     min-height: calc(100vh - 100px);
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 .box3 {
     width: 90%;
