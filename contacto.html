@@ -13,14 +13,14 @@
             <h1>Contacto</h1>
         </header>
         <main>
-
-            <form>
+        <section id="contact">
+            <form class="form-contact">
                 <div class="flexcontact">
                 <div class="box3">
                     <div id="headerform">Por favor conteste a las siguientes preguntas, ¡no le llevara más de 30 segundos / 1 minuto!</div>
                 
-                    <p>Nombre Completo<input type="text"></p>
-                    <p>Fecha de Nacimiento<input type="date"></p>
+                    <p>Nombre Completo<input type="text" name="name"></p>
+                    <p>Fecha de Nacimiento<input type="date" name="email" min="2000-01-01" max="2024-01-01"></p>
                     <div>¿Ha viajado/vivido en el extranjero?<input type="radio" name="respuesta" value="SI">SI<input type="radio" name="respuesta" value="NO">NO</div>
                     <div>Por favor describa brevemente lugar de estancia o viaje que realizó</div>
                     <div><textarea name="myText" rows="4" cols="44"></textarea></div>
@@ -31,6 +31,7 @@
                 </div>
                 </div>
             </form>
+        </section>
 
         </main>
         <footer>
@@ -45,5 +46,6 @@
                     </ul>
                 </div> 
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>

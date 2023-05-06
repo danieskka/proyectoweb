@@ -157,6 +157,9 @@ article:hover {
     text-align: center;
     font-family: 'Courier New', Courier, monospace, sans-serif;
 }
+.danger {
+    color: red;
+}
 
 @media screen and (max-width: 767px) {
     .flexportfolio {
